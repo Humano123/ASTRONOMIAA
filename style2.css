@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    background-color: darkcyan;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    margin-bottom: 100px;
+}
+.imagem:hover{
+    transform: translateY(-5px);
+}
+.astronomia{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+#Rotation:hover{
+    animation: Rotation 0.5s linear infinite;
+}
+@keyframes Rotation{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+h1{
+    color: aliceblue;
+    font-size: xx-large;
+}

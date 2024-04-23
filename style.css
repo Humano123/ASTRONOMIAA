@@ -1,0 +1,41 @@
+body{
+    background-image: url(terra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+section{
+    background-color: aliceblue;
+    margin-top: 200px;
+    height: 300px;
+    border-radius: 20px;
+}
+input{
+    color: aliceblue;
+    background-color: brown;
+    font-size: x-large;
+    border-radius: 40px;
+}
+input:hover{
+    color: black;
+    background-color: chartreuse;
+    box-shadow: 10px 10px 10px;
+}
+.A{
+    color: blueviolet;
+    font-size: larger;
+}
+.B{
+    background-color: rgb(255, 0, 0);
+    color: black;
+    font-size: xx-large;
+    margin-top: 50px;
+}
+.B:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.C{
+    display: inline;
+    margin: 0px;
+}
